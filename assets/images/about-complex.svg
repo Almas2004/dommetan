@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">Заглушка изображения о проекте</title>
+  <desc id="desc">Замените этот файл на реальную фотографию объекта или строительства.</desc>
+  <rect width="1200" height="840" fill="#eef4ec"/>
+  <circle cx="980" cy="150" r="88" fill="#d7a84d"/>
+  <path d="M0 605 C210 520 345 610 540 540 C760 462 942 510 1200 440 L1200 840 L0 840 Z" fill="#93b98e"/>
+  <path d="M120 600 L610 410 L1080 600 L1080 710 L120 710 Z" fill="#f8f5e7"/>
+  <path d="M220 545 L610 390 L982 545 Z" fill="#1f7a3d"/>
+  <rect x="260" y="585" width="128" height="88" fill="#26362f"/>
+  <rect x="458" y="585" width="128" height="88" fill="#26362f"/>
+  <rect x="656" y="585" width="128" height="88" fill="#26362f"/>
+  <rect x="854" y="585" width="128" height="88" fill="#26362f"/>
+  <text x="480" y="500" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800">DOM</text>
+</svg>

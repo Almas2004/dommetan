@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Заглушка: ресторан">
+  <rect width="900" height="620" fill="#eef4ec"/>
+  <rect x="180" y="170" width="540" height="310" rx="8" fill="#ffffff"/>
+  <rect x="225" y="220" width="450" height="96" fill="#d7a84d"/>
+  <rect x="300" y="360" width="300" height="120" fill="#26362f"/>
+  <text x="332" y="282" fill="#172019" font-family="Arial" font-size="38" font-weight="700">RESTAURANT</text>
+</svg>

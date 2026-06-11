@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Заглушка: магазин">
+  <rect width="900" height="620" fill="#f5f1e6"/>
+  <path d="M145 240 L450 130 L755 240 Z" fill="#1f7a3d"/>
+  <rect x="185" y="240" width="530" height="220" fill="#ffffff"/>
+  <rect x="260" y="300" width="120" height="160" fill="#26362f"/>
+  <rect x="445" y="300" width="190" height="98" fill="#d7a84d"/>
+  <text x="386" y="222" fill="#fff" font-family="Arial" font-size="34" font-weight="700">SHOP</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">Заглушка плана комплекса</title>
+  <desc id="desc">Замените этот файл на реальный план территории комплекса.</desc>
+  <rect width="1200" height="840" fill="#eef4ec"/>
+  <rect x="70" y="610" width="1060" height="115" rx="8" fill="#303b35"/>
+  <path d="M115 668 H1085" stroke="#f1d38d" stroke-width="8" stroke-dasharray="46 32"/>
+  <rect x="115" y="110" width="335" height="210" rx="8" fill="#ffffff"/>
+  <rect x="505" y="95" width="280" height="190" rx="8" fill="#d7a84d"/>
+  <rect x="835" y="130" width="235" height="250" rx="8" fill="#ffffff"/>
+  <rect x="175" y="385" width="300" height="155" rx="8" fill="#1f7a3d"/>
+  <rect x="535" y="360" width="220" height="180" rx="8" fill="#ffffff"/>
+  <circle cx="945" cy="508" r="92" fill="#1f7a3d"/>
+  <g fill="#172019" font-family="Arial" font-size="38" font-weight="700">
+    <text x="235" y="230">1</text>
+    <text x="632" y="205">2</text>
+    <text x="943" y="270">3</text>
+    <text x="318" y="480" fill="#fff">4</text>
+    <text x="630" y="465">5</text>
+    <text x="933" y="520" fill="#fff">6</text>
+  </g>
+</svg>

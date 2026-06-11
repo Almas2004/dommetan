@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Понятная схема основных зон комплекса DOM</title>
+  <desc id="desc">Упрощенная схема планировки: магазин, кафе и ресторан, торговые павильоны, намазхана, душевые, санузлы, сервисные и административные помещения.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f6f7f2}
+      .road{fill:#2f3a34}
+      .wall{fill:#fff;stroke:#172019;stroke-width:5;stroke-linejoin:round}
+      .line{fill:none;stroke:#172019;stroke-width:3;stroke-linejoin:round}
+      .muted{fill:#657167}
+      .title{fill:#172019;font:800 38px Arial,Helvetica,sans-serif}
+      .label{fill:#172019;font:700 25px Arial,Helvetica,sans-serif}
+      .small{fill:#657167;font:600 19px Arial,Helvetica,sans-serif}
+      .white{fill:#fff}
+      .zone-store{fill:#dff0e3}
+      .zone-food{fill:#f5dfaa}
+      .zone-service{fill:#dce8ec}
+      .zone-prayer{fill:#e7e0f4}
+      .zone-admin{fill:#f1e2df}
+      .zone-trade{fill:#eaf1d9}
+      .zone-utility{fill:#e8e8e1}
+      .zone-next{fill:url(#hatch);stroke:#c44;stroke-width:4;stroke-dasharray:18 10}
+    </style>
+    <pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="14" height="14" fill="#fff7f7"/>
+      <line x1="0" y1="0" x2="0" y2="14" stroke="#d8b7b7" stroke-width="4"/>
+    </pattern>
+  </defs>
+
+  <rect class="bg" width="1600" height="980"/>
+  <text class="title" x="70" y="82">Основные зоны комплекса</text>
+  <text class="small" x="70" y="118">Схема упрощена для посетителей сайта: показывает назначение блоков, а не рабочие размеры чертежа.</text>
+
+  <rect class="road" x="70" y="820" width="1180" height="70" rx="8"/>
+  <path d="M140 855 H1190" stroke="#f1d38d" stroke-width="8" stroke-dasharray="50 38"/>
+  <text class="white" x="585" y="865" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="800">Въезд / выезд</text>
+
+  <path class="wall" d="M110 190 H640 V360 H1250 V750 H110 Z"/>
+  <path class="line" d="M110 360 H640 M640 190 V750 M910 360 V750 M110 520 H640 M360 520 V750 M910 520 H1250"/>
+
+  <rect class="zone-admin" x="125" y="205" width="250" height="145" rx="8"/>
+  <text class="label" x="152" y="265">Персонал</text>
+  <text class="small" x="152" y="300">кабинеты, медпункт,</text>
+  <text class="small" x="152" y="326">служебные комнаты</text>
+
+  <rect class="zone-prayer" x="390" y="205" width="235" height="145" rx="8"/>
+  <text class="label" x="420" y="265">Намазхана</text>
+  <text class="small" x="420" y="300">комната омовения</text>
+  <text class="small" x="420" y="326">и зона ожидания</text>
+
+  <rect class="zone-service" x="125" y="375" width="220" height="130" rx="8"/>
+  <text class="label" x="152" y="432">Душевые</text>
+  <text class="small" x="152" y="466">санузлы М/Ж</text>
+
+  <rect class="zone-utility" x="360" y="375" width="265" height="130" rx="8"/>
+  <text class="label" x="390" y="426">Сервис</text>
+  <text class="small" x="390" y="460">прачечная, котельная,</text>
+  <text class="small" x="390" y="486">электрощитовая</text>
+
+  <rect class="zone-food" x="125" y="535" width="500" height="200" rx="8"/>
+  <text class="label" x="158" y="612">Кафе / ресторан</text>
+  <text class="small" x="158" y="650">касса, ресепшн, посадочная зона</text>
+  <g fill="none" stroke="#172019" stroke-width="3" opacity=".45">
+    <rect x="420" y="580" width="54" height="38" rx="5"/>
+    <rect x="500" y="580" width="54" height="38" rx="5"/>
+    <rect x="420" y="650" width="54" height="38" rx="5"/>
+    <rect x="500" y="650" width="54" height="38" rx="5"/>
+  </g>
+
+  <rect class="zone-trade" x="655" y="375" width="240" height="360" rx="8"/>
+  <text class="label" x="685" y="438">Торговые</text>
+  <text class="label" x="685" y="470">павильоны</text>
+  <text class="small" x="685" y="506">3 отдельных блока</text>
+  <path d="M705 560 H845 M705 625 H845 M705 690 H845" stroke="#172019" stroke-width="4" opacity=".35"/>
+
+  <rect class="zone-store" x="925" y="375" width="305" height="360" rx="8"/>
+  <text class="label" x="962" y="452">Магазин</text>
+  <text class="small" x="962" y="488">основной торговый зал</text>
+  <g fill="none" stroke="#172019" stroke-width="4" opacity=".35">
+    <path d="M980 565 H1180 M980 620 H1180 M980 675 H1180"/>
+    <path d="M1030 535 V705 M1130 535 V705"/>
+  </g>
+
+  <rect class="zone-service" x="925" y="205" width="305" height="135" rx="8"/>
+  <text class="label" x="962" y="262">Санузлы</text>
+  <text class="small" x="962" y="298">для посетителей</text>
+
+  <path class="line" d="M80 770 H1275"/>
+  <text class="small" x="78" y="805">Фасад и входная группа</text>
+
+  <rect class="zone-next" x="1310" y="205" width="230" height="530" rx="8"/>
+  <text class="label" x="1344" y="452">Вторая</text>
+  <text class="label" x="1344" y="486">очередь</text>
+  <text class="small" x="1344" y="522">резерв развития</text>
+
+  <g transform="translate(70 925)">
+    <rect x="0" y="-22" width="24" height="24" rx="4" class="zone-store"/><text class="small" x="34" y="-2">Магазин</text>
+    <rect x="190" y="-22" width="24" height="24" rx="4" class="zone-food"/><text class="small" x="224" y="-2">Кафе / ресторан</text>
+    <rect x="430" y="-22" width="24" height="24" rx="4" class="zone-prayer"/><text class="small" x="464" y="-2">Намазхана</text>
+    <rect x="650" y="-22" width="24" height="24" rx="4" class="zone-service"/><text class="small" x="684" y="-2">Санузлы и душевые</text>
+    <rect x="930" y="-22" width="24" height="24" rx="4" class="zone-trade"/><text class="small" x="964" y="-2">Павильоны</text>
+  </g>
+</svg>

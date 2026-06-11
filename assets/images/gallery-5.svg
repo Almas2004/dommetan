@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Заглушка: зарядная станция">
+  <rect width="900" height="620" fill="#eef4ec"/>
+  <rect x="360" y="160" width="180" height="320" rx="16" fill="#ffffff"/>
+  <rect x="398" y="210" width="104" height="92" rx="8" fill="#1f7a3d"/>
+  <path d="M464 330 L426 402 H462 L438 470 L510 368 H470 Z" fill="#d7a84d"/>
+  <text x="320" y="540" fill="#1f7a3d" font-family="Arial" font-size="36" font-weight="700">EV CHARGE</text>
+</svg>

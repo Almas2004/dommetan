@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Заглушка: стоянка">
+  <rect width="900" height="620" fill="#dfe8df"/>
+  <rect y="380" width="900" height="240" fill="#303b35"/>
+  <path d="M135 425 H765" stroke="#f1d38d" stroke-width="10" stroke-dasharray="58 42"/>
+  <rect x="160" y="275" width="250" height="100" rx="10" fill="#f7f0dd"/>
+  <rect x="410" y="310" width="170" height="65" rx="8" fill="#f7f0dd"/>
+  <circle cx="230" cy="390" r="28" fill="#121917"/>
+  <circle cx="520" cy="390" r="28" fill="#121917"/>
+  <text x="334" y="180" fill="#1f7a3d" font-family="Arial" font-size="42" font-weight="700">PARKING</text>
+</svg>

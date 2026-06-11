@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">Заглушка изображения контактов</title>
+  <desc id="desc">Замените этот файл на карту, фото фасада или схему проезда.</desc>
+  <rect width="1200" height="840" fill="#eef4ec"/>
+  <path d="M600 115 C422 115 278 258 278 436 C278 665 600 760 600 760 C600 760 922 665 922 436 C922 258 778 115 600 115 Z" fill="#1f7a3d"/>
+  <circle cx="600" cy="430" r="118" fill="#ffffff"/>
+  <text x="535" y="452" fill="#1f7a3d" font-family="Arial" font-size="48" font-weight="800">DOM</text>
+</svg>

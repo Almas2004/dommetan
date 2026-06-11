@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Заглушка: АГНКС">
+  <rect width="900" height="620" fill="#e9efe8"/>
+  <rect x="90" y="260" width="720" height="170" fill="#f7f0dd"/>
+  <rect x="170" y="198" width="560" height="72" rx="8" fill="#1f7a3d"/>
+  <rect x="220" y="320" width="76" height="110" fill="#26362f"/>
+  <rect x="602" y="320" width="76" height="110" fill="#26362f"/>
+  <text x="328" y="246" fill="#fff" font-family="Arial" font-size="34" font-weight="700">АГНКС</text>
+</svg>

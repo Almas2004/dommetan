@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Заглушка hero-изображения комплекса</title>
+  <desc id="desc">Замените этот файл на реальную фотографию придорожного комплекса.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7fb49c"/>
+      <stop offset="0.55" stop-color="#e5d49b"/>
+      <stop offset="1" stop-color="#fbf7e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <path d="M0 730 C270 650 470 770 760 690 C1030 615 1290 665 1600 580 L1600 1000 L0 1000 Z" fill="#2f5d3b"/>
+  <path d="M0 825 L1600 720 L1600 1000 L0 1000 Z" fill="#26362f"/>
+  <path d="M485 558 L1015 510 L1140 675 L360 716 Z" fill="#f7f0dd"/>
+  <path d="M560 485 L970 450 L1015 510 L485 558 Z" fill="#1f7a3d"/>
+  <rect x="515" y="570" width="120" height="88" fill="#26362f"/>
+  <rect x="680" y="558" width="120" height="88" fill="#26362f"/>
+  <rect x="845" y="546" width="120" height="88" fill="#26362f"/>
+  <rect x="1080" y="405" width="56" height="272" fill="#f7f0dd"/>
+  <rect x="1048" y="370" width="120" height="56" rx="8" fill="#1f7a3d"/>
+  <text x="1083" y="407" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">DOM</text>
+  <path d="M310 752 C520 720 820 708 1290 674" stroke="#f1d38d" stroke-width="10" stroke-linecap="round"/>
+</svg>
