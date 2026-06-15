@@ -769,6 +769,10 @@ h3 {
   align-items: start;
 }
 
+.plan-layout--full {
+  display: block;
+}
+
 .plan-section-title {
   margin-bottom: 34px;
 }
