@@ -117,3 +117,17 @@ if (stationMap && stationQr) {
     new ResizeObserver(syncStationQrHeight).observe(stationMap);
   }
 }
+
+document.querySelectorAll(".video-frame").forEach((frame) => {
+  const video = frame.querySelector("video");
+  const playButton = frame.querySelector(".video-play-button");
+
+  if (!video || !playButton) {
+    return;
+  }
+
+  playButton.addEventListener("click", () => video.play());
+  video.addEventListener("play", () => playButton.classList.add("is-hidden"));
+  video.addEventListener("pause", () => playButton.classList.remove("is-hidden"));
+  video.addEventListener("ended", () => playButton.classList.remove("is-hidden"));
+});
